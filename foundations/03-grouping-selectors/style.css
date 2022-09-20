@@ -1,0 +1,15 @@
+/* style sheet */
+
+.first {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.second {
+    background-color: rgb(247, 247, 17);
+}
+
+.third{
+    font-size: 28px;
+    font-family: Helvetica,Times New Roman, sans-serif;
+}
