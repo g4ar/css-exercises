@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-around;
-  justify-items: center;
+  flex: auto;
   gap: 8px;
 }
 
@@ -54,4 +54,11 @@ ul {
 border: 8px;
   padding: 0px;
   gap: 8px;
+}
+.right-header{
+  align-content: flex-start;
+
+}
+.left-header{
+  align-content: flex-end;
 }
