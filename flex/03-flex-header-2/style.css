@@ -16,6 +16,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 8px;
 }
 .profile-image {
   background: rebeccapurple;
@@ -23,6 +24,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  
 }
 
 .logo {
@@ -30,6 +32,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+
+  flex: 1;
 }
 
 button {
@@ -54,7 +58,6 @@ ul {
 
 .right-header{
   justify-content: space-between;
-  align-items: center;
   margin-left: auto;
  }
  
@@ -64,5 +67,8 @@ ul {
 
 .right-header,
 .left-header{
-  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
+
