@@ -10,21 +10,41 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin: 32px;
 }
-
+.header{
+  display: flex;
+  
+}
+.container{
+  display: flex;
+  gap: 52px;
+  align-items: center;
+  justify-content: space-around;
+}
 .one,
 .two,
 .three,
 .four{
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
+  max-width: 200px;
+  margin-left: auto;
+
 }
 
+.one{
+ align-self: flex-start;
+}
 .text{
-  flex-wrap: wrap;
-  flex: 1;
-  align-self: auto;
+  display: flex;
+  align-items: center;
+ 
+
   
 }
 /* do not edit this footer */
