@@ -13,11 +13,10 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  justify-content: space-around;
-  flex: auto;
-  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -50,15 +49,20 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  margin: 0px;
-border: 8px;
-  padding: 0px;
   gap: 8px;
 }
-.right-header{
-  align-content: flex-start;
 
-}
+.right-header{
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+ }
+ 
 .left-header{
   align-content: flex-end;
+}
+
+.right-header,
+.left-header{
+  flex: 1;
 }
