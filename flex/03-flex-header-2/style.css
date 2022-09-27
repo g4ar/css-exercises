@@ -53,7 +53,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 8px;
+  gap: 16px;
 }
 
 .right-header{
